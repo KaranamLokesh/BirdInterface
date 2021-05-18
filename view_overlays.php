@@ -28,7 +28,7 @@ if (mysqli_num_rows($result) > 0) {
 <!DOCTYPE html>
 <html>
 <head>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgDHrXPSopLPEe4sxIZRtRXJ8t2ZQ0uVs" ></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=<your API key>" ></script>
 <script type="text/javascript">
 var latitude = <?php echo json_encode($latitude); ?>;
 var longitude = <?php echo json_encode($longitude); ?>;
